@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+ background:url("d.jpg"); 
+      height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;	}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #105CE3;
+    color: white;
+    min-width: 40px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #105CE3;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.container{
+  background: black;
+  padding: 20px;
+  border-radius:15px;
+  box-shadow:0px 0px 20px 0px #000;
+  margin-top:130px;
+  max-width:500px;
+}
+.head{
+color:white;
+}
+
+</style>
+</head>
+<body style="background-color:#159FC1;">
+
+<form action="https://www.w3schools.com/action_page.php"  class="container">
+ <center> <h3 class="head">Login Here</h3> 
+          <h5 class="head">Get started with your free account</h5> 
+          <p>....................................or........................................</p>
+ </center>
+  <div class="input-container">
+    <i class="fa fa-user icon"><img src="icon1/user.png" alt="User" style="width:16px";"></i>
+	   
+    <input class="input-field" type="text" placeholder="Username" name="username" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"><img src="icon1/key.png" alt="User" style="width:16px";"></i>
+    <input class="input-field" type="password" placeholder="Password" name="password" required>
+  </div>
+  
+  
+   <button type="submit" name="submit" class="btn"> <i class="fa fa-key click"><img src="icon1/click.png" alt="User" style="width:25px";"></i>&nbsp; Login</button>
+  <center><p> Don't Have an account? <a href="registration.html">Sign Up Here</a></p></center>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_form_icon by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jul 2018 02:09:42 GMT -->
+</html>
