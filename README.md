@@ -1,0 +1,2 @@
+# Beautiful-login-and-registration-page
+In this tutorial we are going to create two HTML5 forms that will switch between login and registration using the CSS3 pseudo class. We will style it using CSS3 and an icon font. The idea behind this demo is to show the user the login form and provide a link to “switch” to the registration form. Note that this is for demo purpose only, it will only work in browser supporting
